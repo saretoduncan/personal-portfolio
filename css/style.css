@@ -185,6 +185,19 @@ a {
   }
 }
 
+.project-div {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.proj {
+  width: 375px;
+  height: 200px;
+  background-color: #1f2833;
+  box-shadow: 0 0 10px #c6c9cd;
+  margin: 10px 5px;
+}
+
 footer {
   background-color: #111;
 }
