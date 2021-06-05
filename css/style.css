@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 body {
   font-family: 'Playfair Display', serif;
+  color: #c5c6c7
 }
 
 a {
@@ -10,7 +11,7 @@ a {
 }
 
 .parent {
-  background-image: url('https://images.unsplash.com/photo-1483401757487-2ced3fa77952?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80');
+  background-image: url('https://st2.depositphotos.com/8716688/11543/v/600/depositphotos_115438396-stock-video-creepy-dark-smoke.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -18,7 +19,7 @@ a {
 
 .nav-br {
   background-color: #0b0c10;
-  opacity: .7
+  opacity: .5;
 }
 
 .logo-tx {
@@ -55,5 +56,13 @@ a {
 
 .btn-custom a:hover {
   color: #45a29e !important;
-  ;
+}
+
+.abt {
+  font-family: 'Playfair Display', serif;
+  margin-top: 100px;
+}
+
+.abt-me {
+  font-size: 20px;
 }
