@@ -1,9 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+body {
+  font-family: 'Playfair Display', serif;
+}
+
+.parent {
+  background-color: #0b0c10
+}
+
 .nav-br {
-  background-color: #111;
+  background-color: #0b0c10;
   opacity: .7
 }
 
 .logo-tx {
   font-family: 'Dancing Script', cursive;
+  color: #66fcf1 !important
+}
+
+.navbar-toggler {
+  background-color: #66fcf1;
+}
+
+.navbar-nav .text-light {
+  color: #66fcf1 !important
 }
