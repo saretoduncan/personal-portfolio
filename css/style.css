@@ -5,7 +5,12 @@ body {
   color: #c5c6c7
 }
 
-a {
+* {
+  padding: 0;
+  margin: 0;
+}
+
+? a {
   text-decoration: none;
   color: inherit;
 }
@@ -17,9 +22,13 @@ a {
   overflow: hidden;
 }
 
+.parent-abt {
+  overflow: visible;
+  min-height: 100% !important;
+}
+
 .nav-br {
-  background-color: #0b0c10;
-  opacity: .5;
+  background-color: #0b0c10ba;
 }
 
 .logo-tx {
@@ -65,4 +74,129 @@ a {
 
 .abt-me {
   font-size: 20px;
+}
+
+.para p {
+  font-size: 18px;
+  background-color: #0b0c10bc;
+  padding: 20px 10px;
+}
+
+.para .abt-me {
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #45a29e;
+}
+
+.skills {
+  margin: 60px auto;
+}
+
+.skills h1 {
+  color: #66fcf1;
+}
+
+.skills ol {
+  list-style: none;
+  color: #45a29e
+}
+
+.skills li {
+  margin: 2px 0;
+}
+
+.bar {
+  background-color: #353b48;
+  display: block;
+  height: 2px;
+  border-radius: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #319cffb3;
+}
+
+.bar span {
+  background-color: #319cffb3;
+  height: 2px;
+  float: left;
+}
+
+.html {
+  width: 90%;
+  animation: html 3s;
+}
+
+.css {
+  width: 99%;
+  animation: css 3s;
+}
+
+.js {
+  width: 85%;
+  animation: js 3s;
+}
+
+.java {
+  width: 50%;
+  animation: java 3s;
+}
+
+.python {
+  width: 60%;
+  animation: python 3s;
+}
+
+@keyframes html {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes css {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 99%;
+  }
+}
+
+@keyframes js {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
+}
+
+@keyframes java {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+@keyframes python {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+footer {
+  background-color: #111;
+}
+
+.social li {
+  padding: 10px;
+  ;
 }
