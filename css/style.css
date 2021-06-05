@@ -15,7 +15,7 @@ body {
 
 .logo-tx {
   font-family: 'Dancing Script', cursive;
-  color: #66fcf1 !important
+  color: #66fcf1 !important;
 }
 
 .navbar-toggler {
@@ -25,3 +25,16 @@ body {
 .navbar-nav .text-light {
   color: #66fcf1 !important
 }
+
+.topDiv {
+  margin-top: 100px;
+}
+
+.name-title {
+  font-family: 'Playfair Display', serif;
+}
+
+?
+/* .img-person {
+  box-shadow: -15px -10px 0 #45a29e
+} */
