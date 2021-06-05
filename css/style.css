@@ -4,8 +4,14 @@ body {
   font-family: 'Playfair Display', serif;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .parent {
-  background-color: #0b0c10
+  background-color: #0b0c10;
+  overflow: hidden;
 }
 
 .nav-br {
@@ -27,14 +33,25 @@ body {
 }
 
 .topDiv {
-  margin-top: 100px;
+  margin-top: 80px;
+  ;
+  height: 90vh;
 }
 
 .name-title {
   font-family: 'Playfair Display', serif;
 }
 
-?
-/* .img-person {
-  box-shadow: -15px -10px 0 #45a29e
-} */
+.img-person {
+  box-shadow: 15px -15px 4px #45a29e
+}
+
+.btn-custom {
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.btn-custom a:hover {
+  color: #45a29e !important;
+  ;
+}
