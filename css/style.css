@@ -10,7 +10,9 @@ a {
 }
 
 .parent {
-  background-color: #0b0c10;
+  background-image: url('https://images.unsplash.com/photo-1483401757487-2ced3fa77952?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80');
+  background-size: cover;
+  background-repeat: no-repeat;
   overflow: hidden;
 }
 
