@@ -196,6 +196,12 @@ a {
   background-color: #1f2833;
   box-shadow: 0 0 10px #c6c9cd;
   margin: 10px 5px;
+  padding-top: 5px;
+}
+
+.proj p {
+  position: relative;
+  top: 15px;
 }
 
 footer {
