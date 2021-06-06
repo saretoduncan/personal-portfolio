@@ -22,7 +22,7 @@ a {
 }
 
 .nav-br {
-  background-color: #0b0c10ba;
+  background-color: #0b0c10df;
 }
 
 .logo-tx {
@@ -199,9 +199,19 @@ a {
   padding-top: 5px;
 }
 
+.proj h5,
+.proj span {
+  color: #66fcf1;
+}
+
 .proj p {
   position: relative;
   top: 15px;
+}
+
+.proj div span a:hover {
+  transition: .7s;
+  transform: rotate(180deg) !important;
 }
 
 footer {
