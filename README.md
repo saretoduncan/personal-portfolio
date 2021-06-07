@@ -1,10 +1,10 @@
 
 
-# Anita Kitchen Project
+# Personal-Portfolio
 
-> Using pure html and basic css, I have created a webpage of Anitas Kitchen Restaurant.
+> A personal portfolio website build based on HTML, CSS, Bootstrap, and Javascript.
 
-![screenshot](./images/Screenshoot.png)
+
 
 
 ## Built With
@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://saretoduncan.github.io/Anitas-Kitchen)
+[Live Demo Link](https://saretoduncan.github.io/personal-portfolio)
 
 
 ## Getting Started
@@ -30,7 +30,7 @@ A computer with a working and up to date web browser.
 
 - Clone the repository to your folder of choice using Git (or just download all the files)
 ```
-$ git clone https://github.com/saretoduncan/Anitas-Kitchen.git
+$ git clone https://github.com/saretoduncan/personal-portfolio.git
 
 ```
 - Open the index.html file (in the root folder) and the website should show up.
