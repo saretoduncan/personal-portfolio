@@ -43,10 +43,10 @@
     <h1 class="logo-tx text-center abt">Contact Me</h1>
   </div>
   <div class="container-fluid">
-    <form>
+    <form id="myForm">
       <div class="mb-3 text">
         <label for="email" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
 
       </div>
 
@@ -57,7 +57,7 @@
     <h5 class="mb-3 text">Message</h5>
     <textarea class="mb-3 text" name="message" id="" cols="30" rows="10"></textarea>
 
-    <button type="submit" class="btn btn-primary btn- mb-3">Submit</button></div>
+    <button type="submit" class="btn btn-primary btn- mb-3" form="myForm">Submit</button></div>
   </div>
   <footer class="mt-auto">
     <div class="container-fluid">
