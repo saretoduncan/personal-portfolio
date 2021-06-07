@@ -204,14 +204,18 @@ a {
   color: #66fcf1;
 }
 
+.proj div span {
+  font-size: 25px;
+}
+
 .proj p {
   position: relative;
   top: 15px;
 }
 
 .proj div span a:hover {
-  transition: .7s;
-  transform: rotate(180deg) !important;
+  transition: .3s;
+  font-size: 28px;
 }
 
 .text {
