@@ -38,6 +38,17 @@ a {
   color: #66fcf1 !important
 }
 
+.current:after {
+  content: "";
+  /* This is necessary for the pseudo element to work. */
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+  padding-top: 2px;
+  border-bottom: 1px solid rgb(5, 255, 113);
+  animation: fade 1s;
+}
+
 .topDiv {
   margin-top: 80px;
   ;
@@ -138,6 +149,15 @@ a {
 .python {
   width: 60%;
   animation: python 3s;
+}
+
+@keyframes fade {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
 }
 
 @keyframes html {
