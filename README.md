@@ -11,6 +11,7 @@
 
 - HTML
 - CSS
+- Bootstrap
  
 
 ## Live Demo
